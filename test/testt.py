@@ -1,5 +1,7 @@
-import numpy as np
+import os
+from dotenv import load_dotenv
+load_dotenv('../conf/.env')
 
-a = 3
-a1 = 4
-print(np.add(a, a1))
+PROJECT_ROOT = os.getenv("PROJECT_ROOT")
+
+print(PROJECT_ROOT)

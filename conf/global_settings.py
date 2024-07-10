@@ -38,11 +38,11 @@ SAVE_EPOCH = 10
 
 
 #cangjie
-TRAIN_PATH_CANGJIE = 'data/raw/etl_952_singlechar_size_64/952_train'
-TEST_PATH_CANGJIE = 'data/raw/etl_952_singlechar_size_64/952_test'
-DEV_PATH_CANGJIE = 'data/raw/etl_952_singlechar_size_64/952_val'
+TRAIN_PATH_CANGJIE = '/teamspace/studios/this_studio/pytorch-cifar100/data/raw/etl_952_singlechar_size_64/952_train'
+TEST_PATH_CANGJIE = '/teamspace/studios/this_studio/pytorch-cifar100/data/data/raw/etl_952_singlechar_size_64/952_test'
+DEV_PATH_CANGJIE = '/teamspace/studios/this_studio/pytorch-cifar100/data/data/raw/etl_952_singlechar_size_64/952_val'
 
-CANGJIE_LABELS_PATH = '../data/raw/etl_952_singlechar_size_64/952_labels.txt'
+CANGJIE_LABELS_PATH = '/teamspace/studios/this_studio/pytorch-cifar100/data/data/raw/etl_952_singlechar_size_64/952_labels.txt'
 
 
 
