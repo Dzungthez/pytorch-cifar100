@@ -2,6 +2,7 @@
 
 author baiyu
 """
+from cgi import test
 import os
 from datetime import datetime
 
@@ -34,6 +35,14 @@ LOG_DIR = 'runs'
 
 #save weights file per SAVE_EPOCH epoch
 SAVE_EPOCH = 10
+
+
+#cangjie
+TRAIN_PATH_CANGJIE = 'data/raw/etl_952_singlechar_size_64/952_train'
+TEST_PATH_CANGJIE = 'data/raw/etl_952_singlechar_size_64/952_test'
+DEV_PATH_CANGJIE = 'data/raw/etl_952_singlechar_size_64/952_val'
+
+CANGJIE_LABELS_PATH = '../data/raw/etl_952_singlechar_size_64/952_labels.txt'
 
 
 

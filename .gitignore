@@ -1,4 +1,6 @@
 **/__pycache__
-data
+data/raw/*
 checkpoint
-runs
+runs/*
+conf/.env
+!data/raw/.gitkeep
