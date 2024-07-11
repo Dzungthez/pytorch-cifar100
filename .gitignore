@@ -4,3 +4,4 @@ checkpoint
 runs/*
 conf/.env
 !data/raw/.gitkeep
+scripts/runs

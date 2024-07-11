@@ -299,7 +299,7 @@ class Attention(nn.Module):
         block_num: attention module number for each stage
     """
 
-    def __init__(self, block_num, class_num=100):
+    def __init__(self, block_num, class_num=952):
 
         super().__init__()
         self.pre_conv = nn.Sequential(

@@ -275,7 +275,7 @@ class InceptionC(nn.Module):
 
 class InceptionV4(nn.Module):
 
-    def __init__(self, A, B, C, k=192, l=224, m=256, n=384, class_nums=100):
+    def __init__(self, A, B, C, k=192, l=224, m=256, n=384, class_nums=952):
 
         super().__init__()
         self.stem = Inception_Stem(3)
@@ -503,7 +503,7 @@ class InceptionResNetReductionB(nn.Module):
 
 class InceptionResNetV2(nn.Module):
 
-    def __init__(self, A, B, C, k=256, l=256, m=384, n=384, class_nums=100):
+    def __init__(self, A, B, C, k=256, l=256, m=384, n=384, class_nums=952):
         super().__init__()
         self.stem = Inception_Stem(3)
         self.inception_resnet_a = self._generate_inception_module(384, 384, A, InceptionResNetA)

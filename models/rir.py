@@ -107,7 +107,7 @@ class RiRBlock(nn.Module):
         return layers
 
 class ResnetInResneet(nn.Module):
-    def __init__(self, num_classes=100):
+    def __init__(self, num_classes=952):
         super().__init__()
         base = int(96 / 2)
         self.residual_pre_conv = nn.Sequential(
@@ -140,7 +140,7 @@ class ResnetInResneet(nn.Module):
             nn.Linear(900, 450),
             nn.ReLU(),
             nn.Dropout(),
-            nn.Linear(450, 100),
+            nn.Linear(450, 952),
         )
 
         self._weight_init()

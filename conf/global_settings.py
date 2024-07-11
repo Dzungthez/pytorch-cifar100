@@ -17,10 +17,10 @@ CIFAR100_TRAIN_STD = (0.2673342858792401, 0.2564384629170883, 0.2761504713256840
 #CIFAR100_TEST_STD = (0.2682515741720801, 0.2573637364478126, 0.2770957707973042)
 
 #directory to save weights file
-CHECKPOINT_PATH = 'checkpoint'
+CHECKPOINT_PATH = '../checkpoints'
 
 #total training epoches
-EPOCH = 200
+EPOCH = 1
 MILESTONES = [60, 120, 160]
 
 #initial learning rate
@@ -38,9 +38,9 @@ SAVE_EPOCH = 10
 
 
 #cangjie
-TRAIN_PATH_CANGJIE = 'data/raw/etl_952_singlechar_size_64/952_train'
-TEST_PATH_CANGJIE = 'data/raw/etl_952_singlechar_size_64/952_test'
-DEV_PATH_CANGJIE = 'data/raw/etl_952_singlechar_size_64/952_val'
+TRAIN_PATH_CANGJIE = '../data/raw/etl_952_singlechar_size_64/952_train'
+TEST_PATH_CANGJIE = '../data/raw/etl_952_singlechar_size_64/952_test'
+DEV_PATH_CANGJIE = '../data/raw/etl_952_singlechar_size_64/952_val'
 
 CANGJIE_LABELS_PATH = '../data/raw/etl_952_singlechar_size_64/952_labels.txt'
 

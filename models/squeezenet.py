@@ -48,7 +48,7 @@ class Fire(nn.Module):
 class SqueezeNet(nn.Module):
 
     """mobile net with simple bypass"""
-    def __init__(self, class_num=100):
+    def __init__(self, class_num=952):
 
         super().__init__()
         self.stem = nn.Sequential(

@@ -109,7 +109,7 @@ class BottleneckResidualSEBlock(nn.Module):
 
 class SEResNet(nn.Module):
 
-    def __init__(self, block, block_num, class_num=100):
+    def __init__(self, block, block_num, class_num=952):
         super().__init__()
 
         self.in_channels = 64

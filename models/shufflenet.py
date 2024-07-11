@@ -159,7 +159,7 @@ class ShuffleNetUnit(nn.Module):
 
 class ShuffleNet(nn.Module):
 
-    def __init__(self, num_blocks, num_classes=100, groups=3):
+    def __init__(self, num_blocks, num_classes=952, groups=3):
         super().__init__()
 
         if groups == 1:

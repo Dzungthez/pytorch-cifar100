@@ -64,7 +64,7 @@ class ResNextBottleNeckC(nn.Module):
 
 class ResNext(nn.Module):
 
-    def __init__(self, block, num_blocks, class_names=100):
+    def __init__(self, block, num_blocks, class_names=952):
         super().__init__()
         self.in_channels = 64
 
@@ -79,7 +79,7 @@ class ResNext(nn.Module):
         self.conv4 = self._make_layer(block, num_blocks[2], 256, 2)
         self.conv5 = self._make_layer(block, num_blocks[3], 512, 2)
         self.avg = nn.AdaptiveAvgPool2d((1, 1))
-        self.fc = nn.Linear(512 * 4, 100)
+        self.fc = nn.Linear(512 * 4, class_names)
 
     def forward(self, x):
         x = self.conv1(x)

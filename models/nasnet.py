@@ -242,7 +242,7 @@ class ReductionCell(nn.Module):
 
 class NasNetA(nn.Module):
 
-    def __init__(self, repeat_cell_num, reduction_num, filters, stemfilter, class_num=100):
+    def __init__(self, repeat_cell_num, reduction_num, filters, stemfilter, class_num=952):
         super().__init__()
 
         self.stem = nn.Sequential(

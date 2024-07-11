@@ -70,7 +70,7 @@ class PreActBottleNeck(nn.Module):
 
 class PreActResNet(nn.Module):
 
-    def __init__(self, block, num_block, class_num=100):
+    def __init__(self, block, num_block, class_num=952):
         super().__init__()
         self.input_channels = 64
 

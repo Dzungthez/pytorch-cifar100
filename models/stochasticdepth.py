@@ -135,7 +135,7 @@ class StochasticDepthBottleNeck(torch.jit.ScriptModule):
 
 class StochasticDepthResNet(nn.Module):
 
-    def __init__(self, block, num_block, num_classes=100):
+    def __init__(self, block, num_block, num_classes=952):
         super().__init__()
 
         self.in_channels = 64

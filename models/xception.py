@@ -204,7 +204,7 @@ class ExitFLow(nn.Module):
 
 class Xception(nn.Module):
 
-    def __init__(self, block, num_class=100):
+    def __init__(self, block, num_class=952):
         super().__init__()
         self.entry_flow = EntryFlow()
         self.middel_flow = MiddleFlow(block)
