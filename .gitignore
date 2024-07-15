@@ -1,7 +1,8 @@
 **/__pycache__
 data/raw/*
-checkpoint
-runs/*
+# checkpoint
+# runs/*
 conf/.env
 !data/raw/.gitkeep
-scripts/runs
+scripts/runs/*
+scripts/checkpoints/*

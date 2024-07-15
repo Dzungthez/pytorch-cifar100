@@ -317,7 +317,7 @@ class Attention(nn.Module):
             PreActResidualUnit(2048, 2048, 1)
         )
         self.avg = nn.AdaptiveAvgPool2d(1)
-        self.linear = nn.Linear(2048, 100)
+        self.linear = nn.Linear(2048, 952)
 
     def forward(self, x):
         x = self.pre_conv(x)

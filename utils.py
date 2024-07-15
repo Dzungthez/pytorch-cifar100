@@ -74,6 +74,9 @@ def get_network(args):
     elif args.net == 'resnet152':
         from models.resnet import resnet152
         net = resnet152()
+    elif args.net == 'resnet-m':
+        from models.resnet_m import resnet50
+        net = resnet50()
     elif args.net == 'preactresnet18':
         from models.preactresnet import preactresnet18
         net = preactresnet18()
